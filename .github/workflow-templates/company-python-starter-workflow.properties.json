@@ -1,0 +1,11 @@
+{
+    "name": "Company Python Starter Workflow",
+    "description": "Use this to start building your Python app.",
+    "iconName": "python",
+    "categories": [
+        "Python"
+    ],
+    "filePatterns": [
+        "**/*.py"
+    ]
+}
