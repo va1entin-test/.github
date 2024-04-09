@@ -26,7 +26,7 @@ jobs:
     - name: 🔍 Lint with flake8
       run: |
         pip install flake8
-        flake8 src --count --select=E9,F63,F7,F82 --show-source --statistics
+        flake8 src --count --show-source --statistics
 
     - name: 🔍 Test with pytest
       run: |
