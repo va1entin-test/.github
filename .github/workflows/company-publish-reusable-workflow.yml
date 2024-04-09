@@ -1,0 +1,16 @@
+name: Company Publish Reusable Workflow
+
+on:
+  workflow_call:
+
+jobs:
+  Publish:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: 📦 Publish package
+      run: echo "Publishing of package successful"
+
+    - name: 🚢 Publish container image
+      run: echo "Publishing of container image successful"

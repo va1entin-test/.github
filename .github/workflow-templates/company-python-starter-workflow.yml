@@ -1,11 +1,10 @@
-name: Company Python Reusable Workflow
+name: Company Python Starter Workflow
 
 on:
-  workflow_call:
-
+  push:
 
 jobs:
-  build:
+  Test:
 
     runs-on: ubuntu-latest
 
