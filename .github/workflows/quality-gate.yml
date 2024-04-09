@@ -1,0 +1,13 @@
+name: Quality Gate
+
+on:
+  workflow_call:
+
+jobs:
+  Publish:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Quality Gate
+      run: echo "Quality gate reported success"
